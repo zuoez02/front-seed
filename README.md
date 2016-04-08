@@ -3,10 +3,14 @@
 A frontend seed to build morden frontend project.
 
 Used:
-+ Node
-+ Express
-+ ES2015
-+ Babel
++ Server
+    * Nodejs
+    * Express
+    * ES2015
+    * Babel
++ Browser
+    * Angular
+    * Bower
 
 # Start
 
