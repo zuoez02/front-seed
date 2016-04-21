@@ -1,0 +1,10 @@
+{
+  "name": "front-seed",
+  "description": "Frontend build seed. Include many morden framework. Based on nodejs ",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zuoez02/front-seed",
+  "license": "MIT",
+  "dependencies": {
+    
+  }
+}
