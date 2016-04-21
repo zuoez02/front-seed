@@ -5,6 +5,11 @@
   "homepage": "https://github.com/zuoez02/front-seed",
   "license": "MIT",
   "dependencies": {
-    
+    "angular": "1.4.x",
+    "angular-route": "1.4.x",
+    "angular-loader": "1.4.x",
+    "angular-mocks": "~1.4.x",
+    "requirejs": "2.1.x",
+    "bootstrap": "~3.3.6"
   }
 }
