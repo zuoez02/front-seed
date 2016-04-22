@@ -1,6 +1,6 @@
 # Frontend Seed
 
-A frontend seed to build morden frontend project.
+A frontend seed to build SPA frontend project.
 
 Used:
 + Server
@@ -11,9 +11,12 @@ Used:
 + Browser
     * Angular
     * Bower
+    * Bootstrap
 
-# Start
+## Start
 
-To run the project, need <code>babel-node</code> to start. Use <code>npm install -g babel-cli</code> to install babel-cli globally. Then use <code>npm start</code> to start the project.
+Before start, you need to <code>npm install</code> to install all dependencies. Then use <code>npm start</code> to start the server. You can change the port of server in config/config.yml.
 
-No angular now.
+## Test
+
+Test files are in test folder.Now it has server end test. Use <code>gulp back:unit</code> for unit test and <code>gulp back:coverage</code> for coverage test. The reports are in report folder.
