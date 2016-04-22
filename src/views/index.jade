@@ -2,10 +2,13 @@ doctype html
 html
   head
     title front-seed
-    // link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/cssmin/front-seed.min.css')
   body
-    h1 Front-seed
-    p This is a front end seed which can be used to build a new project. Developed by Luto Yvan.
-    .main-content(ng-view='')
-    
-    script(src='/bower_components/requirejs/require.js', data-main='/require-config')
+    .container
+      .page-header
+        h1 Front-seed
+      p This is a front end seed which can be used to build a new project.
+      .main-content(ng-view='')
+      
+      script(src='/bower_components/requirejs/require.js', data-main='/require-config')
