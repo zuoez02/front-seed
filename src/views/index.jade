@@ -1,5 +1,11 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html
+  head
+    title front-seed
+    // link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 Front-seed
+    p This is a front end seed which can be used to build a new project. Developed by Luto Yvan.
+    .main-content(ng-view='')
+    
+    script(src='/bower_components/requirejs/require.js', data-main='/require-config')
