@@ -1,4 +1,5 @@
 # Frontend Seed
+[![Build Status](https://travis-ci.org/zuoez02/front-seed.svg?branch=master)](https://travis-ci.org/zuoez02/front-seed)
 
 A frontend seed to build SPA frontend project.
 
