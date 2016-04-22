@@ -1,0 +1,11 @@
+{
+    "env": {
+        "node":true
+    },
+    "globals": {
+        "describe":true,
+        "before":true,
+        "it":true
+    },
+    "extends": "../.eslintrc"
+}

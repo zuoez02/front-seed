@@ -3,7 +3,7 @@
 
 A frontend seed to build SPA frontend project.
 
-Used:
+Using:
 + Server
     * Nodejs
     * Express
@@ -13,6 +13,12 @@ Used:
     * Angular
     * Bower
     * Bootstrap
++ Test
+    * Mocha
++ Build system
+    * Gulp
++ Lint
+    * Eslint
 
 ## Start
 
